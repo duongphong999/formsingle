@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 1px solid black;
+            background-color: aliceblue;
+        }
+        /* td,th{
+            border: 1px solid black;
+        } */
+        .input1{
+            width: 200px;
+        }
+        p{
+            text-align: center;
+        }
+        h2{
+            color: red;
+            float: left;
+        }
+        .h10{
+            color: blue;
+        }
+        td{
+            color: chocolate;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th colspan="4"> <h2> SỞ THÍCH CỦA BẠN</h2></th>
+            </tr>
+            <tr>
+                <td><label for="hoten" class="h10"> Họ và tên</label></td>
+                <td colspan="3"><input type="text" class="input1"></td>
+            </tr>
+            <tr>
+                <td><label for="email" class="h10" >Email</label></td>
+                <td colspan="2"><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="hobby" class="h10"> Sở thích</label></td>
+                <td><input type="checkbox"> <label for="">Thể thao</label></td>
+                <td><input type="checkbox"> <label for="mucsic"> Âm nhạc</label></td>
+                <td><input type="checkbox"><label for="readbook"> Đọc sách</label></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox"> <label for="">Lướt web</label></td>
+                <td><input type="checkbox"> <label for="game"> Chơi game</label></td>
+                <td><input type="checkbox"><label for="film"> điện ảnh  </label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="" id=""><label for="travel">Du lịch</label></td>
+            </tr>
+            <tr>
+                <td colspan="4"> <p><input type="button" name="submit" value="Gửi thông tin">
+                <input type="reset" name="reset" value="Nhập lại" id=""></p>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
